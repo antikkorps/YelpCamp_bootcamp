@@ -25,7 +25,7 @@ app.get('/campgrounds', async (req, res) => {
   res.render('campgrounds/index', { campgrounds });
 });
 
-app.get('/camgrounds/new_entry', (req, res) => {
+app.get('/camgrounds/new', (req, res) => {
   res.render('campgrounds/new');
 });
 
